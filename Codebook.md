@@ -111,3 +111,16 @@ Calculation of Mean, Standard Deviation and Weighted average of the frequency fr
 [79] "FrequencyBodyGyroscopeJerkMagnitude-Mean()"                 
 [80] "FrequencyBodyGyroscopeJerkMagnitude-StandardDeviation()"    
 [81] "FrequencyBodyGyroscopeJerkMagnitude-MeanFreq()"      
+
+# Transformation
+To get from the Raw Data to the Tidy Data the following transformations were made. These transformations can be executed with the script ‘run_analysis.R’.
+
+Merged the training and test sets to create one data set.
+
+Extracted only the measurements on the mean and standard deviation for each measurement.
+
+Used descriptive activity names to name the activities in the data set.
+
+Appropriately labeled the data set with descriptive variable names.
+
+From the data set in step 4, created a second, independent tidy data set with the average of each variable for each activity and each subject.
